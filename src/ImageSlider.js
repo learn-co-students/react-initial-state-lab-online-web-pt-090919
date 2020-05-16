@@ -17,9 +17,9 @@ export default class ImageSlider extends Component {
   render() {
     return (
       <div onClick={this.slider}>
-      'I am on slide {this.state.currentSlideIndex}'
+      <p>I am on slide {this.state.currentSlideIndex}</p>
       </div>
       )
-  }
   
+}
 }
